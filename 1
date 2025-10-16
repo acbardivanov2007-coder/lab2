@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <limits.h>
+#include <float.h>
+int main()
+{
+        printf("МАКС значение для целых чисел = %d\n", INT_MAX);
+        printf("МАКС значение для чисел с плав запятой = %e\n", FLT_MAX);
+        printf("МИН значение для чисел с плав запятой  = %e\n", FLT_MIN);
+        printf("Переполнение Int: %d + 100 = %d\n", INT_MAX, INT_MAX + 100);
+        printf("Переполнение Flt: %e * 100 = %e\n", FLT_MAX, FLT_MAX * 100);
+        printf("Потеря значимости Flt: %e / 10 = %e\n", FLT_MIN, FLT_MIN / 10);
+        printf("%d\n", SHRT_MAX + 1);
+        printf("%u\n", USHRT_MAX + 1);
+        printf("%ld\n", LONG_MAX + 1);
+        printf("%lu\n", ULONG_MAX + 1);
+        printf("%u\n", UINT_MAX + 1);
+        printf("%lld\n", LLONG_MAX + 1);
+        printf("%llu\n", ULLONG_MAX + 1);
+        printf("%c\n", CHAR_MAX + 1);
+        printf("%e\n", DBL_MIN / 10);
+        printf("%le\n"", LDBL_MIN / 10);
+        
+
+        return 0;
+}
