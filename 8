@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main()
+{
+  float chashka;
+  printf(" Введите количество чашек:");
+  scanf("%f\n", &chashka);
+  float pint = chashka/2.0;
+  float unc = chashka*8.0;
+  float st_losh = unc*2.0;
+  float ch_losh = st_losh*3.0;
+  printf("Значение в пинтах: %f\n", pint);
+  printf("Значение в унциях: %f\n", unc);
+  printf("Значение в столовых ложках: %f\n", st_losh);
+  printf("Значение в чайных ложках: %f\n", ch_losh);
+  return 0;
+}
