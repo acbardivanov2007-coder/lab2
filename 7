@@ -1,1 +1,12 @@
-
+#include <stdio.h>
+int main()
+{
+float cm;
+float inch;
+float cm_inch = 2.54;
+printf("твой рост в сантимметрах:\n");
+scanf("%f", &cm);
+inch = cm / cm_inch;
+printf("твой рост в дюймах %.2f", inch);
+return 0;
+}
