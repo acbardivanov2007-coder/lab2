@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+  float quarts;
+  float grams;
+  float molec;
+  printf("сколько воды ты пьешь ежедневно воды (в квартах):\n");
+  scanf("%f", &quarts);
+  grams = quarts * 950;
+  molec = grams / 3.0e-23;
+  printf("ты принимаешь вот столько молекул воды %e", molec);
+  return 0;
+}
